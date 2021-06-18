@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru" class="page">
 
 <head>
   <meta charset="UTF-8">
@@ -12,13 +12,13 @@
 <body class="page__body no-js">
   <header class="page-header">
     <div class="page-header__container">
-      <nav class="page-header__nav">
-        <ul class="page-header__nav-list">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
           <button class="page-header__button-menu page-header__button-menu--close"></button>
-          <li><a class="page-header__nav-link" href="#">О нас</a></li>
-          <li><a class="page-header__nav-link" href="#">Виды велосипедов</a></li>
-          <li><a class="page-header__nav-link" href="#">Видео про велосипеды</a></li>
-          <li><a class="page-header__nav-link" href="#">Контакты</a></li>
+          <li><a class="main-nav__link" href="#">О нас</a></li>
+          <li><a class="main-nav__link" href="#">Виды велосипедов</a></li>
+          <li><a class="main-nav__link" href="#">Видео про велосипеды</a></li>
+          <li><a class="main-nav__link" href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="page-header__about">
@@ -37,11 +37,30 @@
         <button class="form__button-submit">Подобрать велосипед мечты</button>
       </div>
     </div>
-    <h1 class="visually-hidden">!!!</h1>
   </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">Сайт веломагазина Moon</h1>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__location location">
+      <h2 class="location__title">Как нас найти</h2>
+      <p class="location__address">Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
+      <div class="location__map"></div>
+    </div>
+<ul class="page-footer__contacts contacts">
+  <li class="contacts__item">
+    <svg class="contacts__icon contacts__icon--mail" width="26" height="20">
+      <use xlink:href="img/sprite_auto.svg#icon-mail"></use>
+    </svg>
+    <a class="contacts__link" href="mailto:puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a></li>
+  <li class="contacts__item">
+    <svg class="contacts__icon contacts__icon--phone" width="22" height="23">
+      <use xlink:href="img/sprite_auto.svg#icon-phone"></use>
+    </svg>
+    <a class="contacts__link" href="tel:+749978468446">+7(499)-784-684-46</a></li>
+</ul>
+  </footer>
   <script src="./js/main.js">
-
-
   </script>
 </body>
 
