@@ -1,0 +1,104 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    padding-top: 70px;
+    align-items: center;
+    background-color: $white;
+  }
+}
+
+.form__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: $white;
+  letter-spacing: -0.005em;
+
+  @media (max-width: $tablet-width) {
+    width: 321px;
+    font-size: 18px;
+    color: $black;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 288px;
+  }
+}
+
+.form__input {
+  height: 48px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  color: $form-input-text;
+  border: 1px solid #c9ccd4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid $form-border;
+
+
+  @media (max-width: $tablet-width) {
+    width: 321px;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 288px;
+  }
+}
+
+.form__input:focus {
+  outline-color: $accent;
+}
+
+.form__input::placeholder {
+  color: rgba($form-input-text, 0.5);
+
+}
+
+.form__input::-webkit-outer-spin-button,
+.form__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form__input[type='number'] {
+  -moz-appearance: textfield;
+}
+.form__input[type='number']:hover,
+in.form__inputput[type='number']:focus {
+  -moz-appearance: number-input;
+}
+
+.form__button-submit {
+  height: 48px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  color: $black;
+  background-color: $accent;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+
+  &:hover,
+  &:focus {
+    background-color: darken($accent, 5%);
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 321px;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 288px;
+  }
+}

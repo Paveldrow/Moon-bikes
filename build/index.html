@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="page" lang="en">
+<html class="page" lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,41 @@
   <title>Стартовый шаблон</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body class="page__body">
-  <h1 class="header">Добро пожаловать в Лигу А.</h1>
-  <div class="main">
-    <ol>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-      <li>a</li>
-    </ol>
-  </div>
-  <div class="footer">sdf</div>
+
+<body class="page__body no-js">
+  <header class="page-header">
+    <div class="page-header__container">
+      <nav class="page-header__nav">
+        <ul class="page-header__nav-list">
+          <button class="page-header__button-menu page-header__button-menu--close"></button>
+          <li><a class="page-header__nav-link" href="#">О нас</a></li>
+          <li><a class="page-header__nav-link" href="#">Виды велосипедов</a></li>
+          <li><a class="page-header__nav-link" href="#">Видео про велосипеды</a></li>
+          <li><a class="page-header__nav-link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="page-header__about">
+        <div class="page-header__menu-container">
+          <img class="page-header__logo" src="./img/logo.svg" width="68" height="20" alt="Логотип «Moon»">
+          <button class="page-header__button-menu page-header__button-menu--open"><span class="visually-hidden">Кнопка меню</span></button>
+        </div>
+        <p class="page-header__about-title">Мы продаем
+          велосипеды</p>
+        <p class="page-header__about-subtitle">Наш магазин отбирает только самые лучшие велосипеды для продажи</p>
+      </div>
+      <div class="page-header__form form">
+        <p class="form__title">Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
+        <input class="form__input form__input--name" type="text" placeholder="Введите Ваше Имя" aria-label="Введите ваше Имя">
+        <input class="form__input form__input--phone" type="number" placeholder="Введите Ваш номер телефона" aria-label="Введите ваш номер телефона">
+        <button class="form__button-submit">Подобрать велосипед мечты</button>
+      </div>
+    </div>
+    <h1 class="visually-hidden">!!!</h1>
+  </header>
+  <script src="./js/main.js">
+
+
+  </script>
 </body>
+
 </html>

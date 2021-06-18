@@ -1,9 +1,6 @@
 .page {
   height: 100%;
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 30px;
+
 }
 
 .page__body {
@@ -13,5 +10,9 @@
   min-height: 100%;
   margin: 0;
   background-color: $white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
   color: $black;
 }
