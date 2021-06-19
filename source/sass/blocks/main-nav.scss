@@ -1,7 +1,9 @@
 .main-nav {
   position: relative;
   width: 100%;
-  margin-bottom: 256px;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-bottom: 230px;
 
   @media (max-width: $tablet-width) {
     position: absolute;
@@ -26,16 +28,20 @@
 .main-nav__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid rgba($white, 0.2);
+  padding-left: 19px;
+  padding-right: 22px;
+  border-bottom: 2px solid rgba($white, 0.2);
 
   @media (max-width: $tablet-width) {
     display: block;
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+    padding: 0;
     padding-top: 100px;
     background-color: $white;
   }
@@ -49,6 +55,7 @@
 .main-nav__link {
   position: relative;
   display: block;
+  padding-bottom: 8px;
   font-weight: 300;
   font-size: 16px;
   line-height: 32px;
@@ -86,7 +93,7 @@
 .main-nav__link:focus {
   opacity: 1;
   margin-bottom: -2px;
-  border-bottom: 1px solid $accent;
+  border-bottom: 2px solid $accent;
 
   @media (max-width: $tablet-width) {
     margin-bottom: 30px;

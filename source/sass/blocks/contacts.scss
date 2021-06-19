@@ -1,7 +1,9 @@
 .contacts {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
+  max-width: 1200px;
   margin: 0;
   padding: 0;
 
@@ -14,12 +16,18 @@
 .contacts__item {
   display: flex;
   align-items: center;
+  margin-left: 34px;
+  margin-right: 60px;
+  margin-bottom: 30px;
 
-  &:not(:last-child) {
-    margin-right: 90px;
+  @media (max-width: $tablet-width) {
+    margin-left: 38px;
+    margin-right: 53px;
   }
 
   @media (max-width: $mobile-width) {
+    margin-left: 0;
+    margin-right: 15px;
     margin-bottom: 22px;
 
     &:not(:last-child) {
@@ -34,6 +42,11 @@
   color: rgba($black, 0.5);
 }
 
+.contacts__link:hover,
+.contacts__link:focus {
+  color: $black;
+}
+
 .contacts__icon {
   margin-right: 15px;
 
@@ -43,5 +56,6 @@
 
   &--phone {
     stroke: $accent;
+    fill: transparent;
   }
 }

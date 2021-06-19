@@ -1,6 +1,6 @@
 .location__title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   text-align: center;
   font-weight: 600;
   font-size: 30px;
@@ -21,7 +21,7 @@
 .location__address {
   margin: 0;
   margin: 0 auto;
-  margin-bottom: 42px;
+  margin-bottom: 41px;
   width: 555px;
   font-size: 17px;
   line-height: 31px;
@@ -34,9 +34,8 @@
   }
 
   @media (max-width: $mobile-width) {
-    margin-right: 16px;
-    margin-left: 15px;
-    margin-bottom: 25px;
+    width: 250px;
+    margin-bottom: 19px;
   }
 }
 
