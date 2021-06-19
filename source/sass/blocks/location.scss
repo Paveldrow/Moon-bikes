@@ -43,7 +43,8 @@
 .location__map {
   width: 957px;
   margin-bottom: 38px;
-  min-height: 530px;
+  height: 530px;
+  background-color: $dark-background;
   background-image: url(../../img/map-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +56,7 @@
 
   @media (max-width: $tablet-width) {
     width: 698px;
-    min-height: 545px;
+    height: 545px;
     margin-bottom: 20px;
     background-image: url(../../img/map-tablet.png);
 
@@ -66,7 +67,7 @@
 
   @media (max-width: $mobile-width) {
     width: auto;
-    min-height: 250px;
+    height: 250px;
     margin-bottom: 31px;
     background-image: url(../../img/map-mobile.png);
   }
@@ -74,4 +75,10 @@
   @media (min-resolution: 2dppx) {
     background-image: url(../../img/map-mobile@2x.png);
   }
+}
+
+.location__map-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
