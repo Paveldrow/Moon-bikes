@@ -45,6 +45,10 @@
     justify-content: center;
     margin: 0 auto;
   }
+
+  @media (max-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .bicycles__item {

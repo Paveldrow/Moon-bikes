@@ -36,12 +36,13 @@
   counter-reset: item;
 
   @media (max-width: 1200px) {
-    width: 556px;
+    max-width: 556px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 
   @media (max-width: $mobile-width) {
+    width: auto;
     display: block;
   }
 }
