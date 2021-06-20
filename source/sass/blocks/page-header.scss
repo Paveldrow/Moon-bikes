@@ -124,6 +124,11 @@
   }
 }
 
+.page-header__button-menu:hover,
+.page-header__button-menu:focus {
+  filter: brightness(120%)
+}
+
 .no-js .page-header__button-menu {
   display: none;
 }

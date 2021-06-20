@@ -44,7 +44,7 @@
 
 .contacts__link:hover,
 .contacts__link:focus {
-  color: $black;
+  color: rgba($black, 0.7);
 }
 
 .contacts__icon {
@@ -58,4 +58,12 @@
     stroke: $accent;
     fill: transparent;
   }
+}
+
+.contacts__item:hover .contacts__icon--mail {
+  fill: rgba($black, 0.5);
+}
+
+.contacts__item:hover .contacts__icon--phone {
+  stroke: rgba($black, 0.5);
 }

@@ -92,7 +92,7 @@ in.form__inputput[type='number']:focus {
 
   &:hover,
   &:focus {
-    background-color: darken($accent, 5%);
+    filter: brightness(120%);
   }
 
   @media (max-width: $tablet-width) {
