@@ -33,7 +33,7 @@
   }
 }
 
-.form__input {
+.form input {
   height: 48px;
   margin-bottom: 20px;
   padding-left: 30px;
@@ -56,27 +56,14 @@
   }
 }
 
-.form__input:focus {
+.form input:focus {
   outline-color: $accent;
 }
 
-.form__input::placeholder {
+.form input::placeholder {
   color: rgba($form-input-text, 0.5);
 }
 
-.form__input::-webkit-outer-spin-button,
-.form__input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.form__input[type='number'] {
-  -moz-appearance: textfield;
-}
-.form__input[type='number']:hover,
-in.form__inputput[type='number']:focus {
-  -moz-appearance: number-input;
-}
 
 .form__button-submit {
   height: 51px;
