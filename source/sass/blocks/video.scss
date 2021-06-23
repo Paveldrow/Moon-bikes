@@ -64,32 +64,32 @@
   margin: 0 auto;
   margin-bottom: -99px;
   background-color: black;
-  background-image: url('../../img/video-poster-desktop.jpg');
+  background-image: url('../img/video-poster-desktop.jpg');
   background-image: -webkit-image-set(
-    url('../../img/video-poster-desktop.webp') 1x
+    url('../img/video-poster-desktop.webp') 1x
   );
   background-size: cover;
   z-index: 1;
 
   @media (min-resolution: 2dppx) {
-    background-image: url('../../img/video-poster-desktop@2x.jpg');
+    background-image: url('../img/video-poster-desktop@2x.jpg');
     background-image: -webkit-image-set(
-      url('../../img/video-poster-desktop@2x.webp') 2x
+      url('../img/video-poster-desktop@2x.webp') 2x
     );
   }
 
   @media (max-width: $tablet-width) {
     width: 503px;
     height: 282px;
-    background-image: url('../../img/video-poster-tablet.jpg');
+    background-image: url('../img/video-poster-tablet.jpg');
     background-image: -webkit-image-set(
-      url('../../img/video-poster-tablet.webp') 1x
+      url('../img/video-poster-tablet.webp') 1x
     );
 
     @media (min-resolution: 2dppx) {
-      background-image: url('../../img/video-poster-tablet@2x.jpg');
+      background-image: url('../img/video-poster-tablet@2x.jpg');
       background-image: -webkit-image-set(
-        url('../../img/video-poster-tablet@2x.webp') 2x
+        url('../img/video-poster-tablet@2x.webp') 2x
       );
     }
   }
@@ -97,15 +97,15 @@
   @media (max-width: $mobile-width) {
     width: 288px;
     height: 162px;
-    background-image: url('../../img/video-poster-mobile.jpg');
+    background-image: url('../img/video-poster-mobile.jpg');
     background-image: -webkit-image-set(
-      url('../../img/video-poster-mobile.webp') 1x
+      url('../img/video-poster-mobile.webp') 1x
     );
 
     @media (min-resolution: 2dppx) {
-      background-image: url('../../img/video-poster-mobile@2x.jpg');
+      background-image: url('../img/video-poster-mobile@2x.jpg');
       background-image: -webkit-image-set(
-        url('../../img/video-poster-mobile@2x.webp') 2x
+        url('../img/video-poster-mobile@2x.webp') 2x
       );
     }
   }
@@ -121,7 +121,7 @@
   background-color: $accent;
   border: none;
   border-radius: 50%;
-  background-image: url('../../img/icon-video-button.svg');
+  background-image: url('../img/icon-video-button.svg');
   background-repeat: no-repeat;
   background-position: left 29px center;
   transition: 0.2s;
