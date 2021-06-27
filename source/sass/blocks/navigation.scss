@@ -6,7 +6,7 @@
 	margin-bottom: 230px;
 
 	@media (max-width: $tablet-width) {
-		position: fixed;
+		position: absolute;
 		display: none;
 		margin: 0;
 	}
